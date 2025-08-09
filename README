@@ -1,1 +1,30 @@
-Single-database configuration for Flask.
+Grocery Store API
+A backend REST API built with Flask and PostgreSQL for managing users, items, and shopping carts.
+This project demonstrates secure authentication, database modeling with SQLAlchemy, and clean API design.
+
+Features
+User Authentication – Register, log in, and manage user accounts using JWT-based authentication.
+Item Management – Add, view, and delete items with validation and error handling.
+Cart Operations – Add items to a cart, update quantities, and calculate totals.
+Error Handling – Clear responses for 400, 401, and 404 errors.
+Database Integration – PostgreSQL with SQLAlchemy ORM and Alembic migrations.
+
+Tech Stack
+Language: Python
+Framework: Flask
+Database: PostgreSQL
+ORM: SQLAlchemy
+Auth: Flask-JWT-Extended
+Migrations: Flask-Migrate (Alembic)
+
+Project Structure
+flask_store/
+│
+├── app.py               # Application entry point
+├── config.py            # Configuration settings
+├── extensions.py        # DB and migration setup
+├── models/              # SQLAlchemy models
+├── routes/              # API route handlers
+├── utils/               # Helper functions
+├── requirements.txt     # Dependencies
+└── .env                 # Environment variables (not committed)
