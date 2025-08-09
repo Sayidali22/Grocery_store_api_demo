@@ -1,15 +1,21 @@
-Grocery Store API
-A backend REST API built with Flask and PostgreSQL for managing users, items, and shopping carts.
-This project demonstrates secure authentication, database modeling with SQLAlchemy, and clean API design.
+Grocery Store API 🛒
+A full-featured backend API for managing users, items, and shopping carts — built with Flask and PostgreSQL.
+This project demonstrates my ability to design and implement secure, scalable APIs from scratch,
+covering authentication, database modeling, and clean endpoint design.
 
-Features
-User Authentication – Register, log in, and manage user accounts using JWT-based authentication.
-Item Management – Add, view, and delete items with validation and error handling.
-Cart Operations – Add items to a cart, update quantities, and calculate totals.
-Error Handling – Clear responses for 400, 401, and 404 errors.
-Database Integration – PostgreSQL with SQLAlchemy ORM and Alembic migrations.
+🚀 Why I Built This
+I wanted to create a real-world backend project that mirrors the functionality of a small e-commerce system.
+The goal was to show I can go beyond “tutorial” apps by structuring a maintainable codebase,
+integrating migrations, and handling real authentication flows.
 
-Tech Stack
+✨ Key Features
+User Authentication – JWT-based signup/login with secure password hashing.
+Item Management – Add, list, update, and delete products with validation.
+Cart Operations – Add items to a cart, update quantities, calculate totals.
+Error Handling – Clean, consistent error responses.
+Database Migrations – Version-controlled schema updates using Alembic.
+
+🛠 Tech Stack
 Language: Python
 Framework: Flask
 Database: PostgreSQL
@@ -17,7 +23,7 @@ ORM: SQLAlchemy
 Auth: Flask-JWT-Extended
 Migrations: Flask-Migrate (Alembic)
 
-Project Structure
+📂 Project Structure
 flask_store/
 │
 ├── app.py               # Application entry point
